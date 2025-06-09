@@ -7,7 +7,6 @@ body {
 
 /* Typho */
 h1 {
-    grid-area: h1;
     font-size: 3rem;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -52,4 +51,14 @@ button{
     color: whitesmoke;
  }
  
+ /* Media Q */
+ 
+ @media (max-width:400px){
+    h1 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 0.5rem;
+    }
+ }
  
